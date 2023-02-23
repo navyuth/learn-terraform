@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created var.tf">
-      <change afterPath="$PROJECT_DIR$/04-var/terraform.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created terraform.tfvars">
+      <change afterPath="$PROJECT_DIR$/04-var/terraform.auto.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677172697243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created terraform.tfvars">
+      <created>1677173438108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677173438108</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -75,6 +81,7 @@
     <MESSAGE value="created out.tf" />
     <MESSAGE value="created data.tf" />
     <MESSAGE value="created var.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="created var.tf" />
+    <MESSAGE value="created terraform.tfvars" />
+    <option name="LAST_COMMIT_MESSAGE" value="created terraform.tfvars" />
   </component>
 </project>
