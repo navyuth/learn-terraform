@@ -185,4 +185,6 @@ resource "aws_route53_record" "dispatch" {
   ttl     = 300
   records = [aws_instance.dispatch.private_ip]
 }
-
+output "rabbitmq" {
+  value = aws_instance.rabbitmq.public_ip
+}
