@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677228888586</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="In ex1 created resource files for DNS records for all server components">
+      <created>1677229658782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677229658782</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
