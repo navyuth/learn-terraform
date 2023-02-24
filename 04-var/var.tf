@@ -19,3 +19,24 @@ output "cli" {
 }
 
 variable "input" {}
+
+variable "sample2" {
+  default = "Hello"
+}
+
+variable "sample3" {
+  default =  [
+    "Hello",
+    1000,
+    true,
+    "World"
+  ]
+}
+
+variable "sample4" {
+  default =  {
+    string = "Hello",
+    number = 100,
+    boolean = true
+  }
+}
