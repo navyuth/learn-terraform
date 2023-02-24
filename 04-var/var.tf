@@ -40,3 +40,8 @@ variable "sample4" {
     boolean = true
   }
 }
+
+output "types" {
+  value = "variable sample2 - ${var.sample2}, first value in list - ${var.sample3[0]}, Boolean value of Map - ${var.sample3["boolean"]}"
+
+}
