@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="output catalogue and public Ip">
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" afterDir="false" />
-    </list>
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="value = [for k, v in aws_instance.instances: &quot;${k} - ${v.public_ip}&quot; ]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,12 +309,31 @@
       <option name="project" value="LOCAL" />
       <updated>1677346731521</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="value = [for k, v in aws_instance.instances: v.public_ip ] to print all Ip's">
+      <created>1677346970534</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677346970534</updated>
+    </task>
+    <task id="LOCAL-00041" summary="value = [for k, v in aws_instance.instances: v.public_ip ] to print all Ip's">
+      <created>1677347057776</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677347057776</updated>
+    </task>
+    <task id="LOCAL-00042" summary="value = [for k, v in aws_instance.instances: &quot;${k} - ${v.public_ip}&quot; ]">
+      <created>1677347146257</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677347146257</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created data.tf" />
-    <MESSAGE value="created var.tf" />
     <MESSAGE value="created terraform.tfvars" />
     <MESSAGE value="created terraform.auto.tfvars" />
     <MESSAGE value="created sample2 for var.tf" />
@@ -340,6 +357,8 @@
     <MESSAGE value="use count.index in creating Catalogue and User" />
     <MESSAGE value="using for_each creating Catalogue and User" />
     <MESSAGE value="output catalogue and public Ip" />
-    <option name="LAST_COMMIT_MESSAGE" value="output catalogue and public Ip" />
+    <MESSAGE value="value = [for k, v in aws_instance.instances: v.public_ip ] to print all Ip's" />
+    <MESSAGE value="value = [for k, v in aws_instance.instances: &quot;${k} - ${v.public_ip}&quot; ]" />
+    <option name="LAST_COMMIT_MESSAGE" value="value = [for k, v in aws_instance.instances: &quot;${k} - ${v.public_ip}&quot; ]" />
   </component>
 </project>
