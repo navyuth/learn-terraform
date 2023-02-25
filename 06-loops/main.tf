@@ -27,6 +27,8 @@ variable "d3" {
   }
 }
 
-resource "null_resource" "d2" {
-  count = length(var.d2)
+resource "null_resource" "d3" {
+  # Count will not work we need to use for_each
+   #count = length(var.d2)
+  for_each = var.d3
 }
