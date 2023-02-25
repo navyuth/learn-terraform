@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="using for_each creating Catalogue and User" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="output catalogue and public Ip">
+      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,11 +297,24 @@
       <option name="project" value="LOCAL" />
       <updated>1677346472409</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="output catalogue and public Ip">
+      <created>1677346678218</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1677346678218</updated>
+    </task>
+    <task id="LOCAL-00039" summary="output catalogue and public Ip">
+      <created>1677346731521</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1677346731521</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created out.tf" />
     <MESSAGE value="created data.tf" />
     <MESSAGE value="created var.tf" />
     <MESSAGE value="created terraform.tfvars" />
@@ -324,6 +339,7 @@
     <MESSAGE value="created ex3 in roboshop-setup with for_each loop" />
     <MESSAGE value="use count.index in creating Catalogue and User" />
     <MESSAGE value="using for_each creating Catalogue and User" />
-    <option name="LAST_COMMIT_MESSAGE" value="using for_each creating Catalogue and User" />
+    <MESSAGE value="output catalogue and public Ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="output catalogue and public Ip" />
   </component>
 </project>
