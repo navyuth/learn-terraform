@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created data in serrvers.tf, new directory ex2 and file main.tf">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="changes in main.tf to create instances with names using variable instances">
       <change beforePath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677341473053</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes in main.tf to create instances with names using variable instances">
+      <created>1677342040398</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677342040398</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +194,7 @@
     <MESSAGE value="public ip address" />
     <MESSAGE value="created 05-s3-state and main.tf" />
     <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="created data in serrvers.tf, new directory ex2 and file main.tf" />
+    <MESSAGE value="changes in main.tf to create instances with names using variable instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in main.tf to create instances with names using variable instances" />
   </component>
 </project>
