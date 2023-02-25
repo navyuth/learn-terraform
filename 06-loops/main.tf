@@ -26,3 +26,7 @@ variable "d3" {
     }
   }
 }
+
+resource "null_resource" "d3" {
+  count = length(var.d3)
+}

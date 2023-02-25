@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="count=var.d1">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="d3 variable">
       <change beforePath="$PROJECT_DIR$/06-loops/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677343615690</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="variable d2 as null resource and count">
+      <created>1677344025926</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344025926</updated>
+    </task>
+    <task id="LOCAL-00028" summary="d3 variable">
+      <created>1677344268943</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344268943</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +257,8 @@
     <MESSAGE value="tags Names is created in main.tf to generate names for each instance" />
     <MESSAGE value="created 06-loops directory and created null_resource in main.tf" />
     <MESSAGE value="count=var.d1" />
-    <option name="LAST_COMMIT_MESSAGE" value="count=var.d1" />
+    <MESSAGE value="variable d2 as null resource and count" />
+    <MESSAGE value="d3 variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="d3 variable" />
   </component>
 </project>
