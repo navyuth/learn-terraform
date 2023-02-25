@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="d1 variable in var.tf">
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="tags Names is created in main.tf to generate names for each instance">
+      <change afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677342905581</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="tags Names is created in main.tf to generate names for each instance">
+      <created>1677343118604</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677343118604</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +226,7 @@
     <MESSAGE value="public_ip" />
     <MESSAGE value="*.public_ip" />
     <MESSAGE value="d1 variable in var.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="d1 variable in var.tf" />
+    <MESSAGE value="tags Names is created in main.tf to generate names for each instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags Names is created in main.tf to generate names for each instance" />
   </component>
 </project>
