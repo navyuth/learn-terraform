@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="In ex1 created resource files for DNS records for all server components" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="public ip address">
+      <change afterPath="$PROJECT_DIR$/05-s3-state/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677229658782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="public ip address">
+      <created>1677229984084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677229984084</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +150,7 @@
     <MESSAGE value="created sample2 for var.tf" />
     <MESSAGE value="created roboshop-setup directory and ex1 file" />
     <MESSAGE value="In ex1 created resource files for DNS records for all server components" />
-    <option name="LAST_COMMIT_MESSAGE" value="In ex1 created resource files for DNS records for all server components" />
+    <MESSAGE value="public ip address" />
+    <option name="LAST_COMMIT_MESSAGE" value="public ip address" />
   </component>
 </project>
