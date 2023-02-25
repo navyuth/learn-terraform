@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="tags Names is created in main.tf to generate names for each instance">
-      <change afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="count=var.d1">
+      <change beforePath="$PROJECT_DIR$/06-loops/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677343118604</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="created 06-loops directory and created null_resource in main.tf">
+      <created>1677343472074</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677343472074</updated>
+    </task>
+    <task id="LOCAL-00026" summary="count=var.d1">
+      <created>1677343615690</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677343615690</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +241,8 @@
     <MESSAGE value="*.public_ip" />
     <MESSAGE value="d1 variable in var.tf" />
     <MESSAGE value="tags Names is created in main.tf to generate names for each instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="tags Names is created in main.tf to generate names for each instance" />
+    <MESSAGE value="created 06-loops directory and created null_resource in main.tf" />
+    <MESSAGE value="count=var.d1" />
+    <option name="LAST_COMMIT_MESSAGE" value="count=var.d1" />
   </component>
 </project>
