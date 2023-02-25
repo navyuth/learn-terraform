@@ -4,25 +4,68 @@ data "aws_ami" "ami" {
   owners = [973714476881]
 }
 
-resource "aws_instance" "instances" {
-  for_each = var.instances
-  ami = data.aws_ami.ami.image_id
-  instance_type = each.value["type"]
-  vpc_security_group_ids = ["sg-0141873d0ab9c8b98"]
-  tags = {
-    Name=each.value["name"]
-  }
+#resource "aws_instance" "instances" {
+#  for_each = var.instances
+#  ami = data.aws_ami.ami.image_id
+#  instance_type = each.value["type"]
+#  vpc_security_group_ids = ["sg-0141873d0ab9c8b98"]
+#  tags = {
+#    Name=each.value["name"]
+#  }
+#}
+#
+#variable "instances" {
+#  default = {
+#    Catalogue = {
+#      name = "Catalogue"
+#      type = "t3.micro"
+#    }
+#    User = {
+#      name = "User"
+#      type = "t3.small"
+#    }
+#  }
+#}
+
+## Immature code
+#variable "names" {
+#  default = ["Catalogue", "User"]
+#}
+#
+#variable "types" {
+#  default = ["t3.micro", "t3.small"]
+#}
+#
+#resource "aws_instance" "instances" {
+#  count = length(var.names)
+#  ami = data.aws_ami.ami.image_id
+#  instance_type = var.types[count.index]
+#  vpc_security_group_ids = ["sg-0141873d0ab9c8b98"]
+#  tags = {
+#    Name = var.names[count.index]
+#  }
+#}
+
+## Little mature code
+variable "demo" {
+  default = [
+    {
+      name="catalogue"
+      type="t3.micro"
+    },
+    {
+      name="User"
+      type="t3.small"
+    }
+  ]
 }
 
-variable "instances" {
-  default = {
-    Catalogue = {
-      name = "Catalogue"
-      type = "t3.micro"
-    }
-    User = {
-      name = "User"
-      type = "t3.small"
-    }
+resource "aws_instance" "instances" {
+  count = length(var.demo)
+  ami = data.aws_ami.ami.image_id
+  instance_type = var.demo[count.index]["type"]
+  vpc_security_group_ids = ["sg-0141873d0ab9c8b98"]
+  tags = {
+    Name=var.demo[count.index]["name"]
   }
 }

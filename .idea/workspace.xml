@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created for_each for variable d3">
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created ex3 in roboshop-setup with for_each loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-loops/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677344741512</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="created ex3 in roboshop-setup with for_each loop">
+      <created>1677345292674</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677345292674</updated>
+    </task>
+    <task id="LOCAL-00035" summary="created ex3 in roboshop-setup with for_each loop">
+      <created>1677345423166</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677345423166</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -298,6 +311,7 @@
     <MESSAGE value="d3 variable" />
     <MESSAGE value="d2 variable" />
     <MESSAGE value="created for_each for variable d3" />
-    <option name="LAST_COMMIT_MESSAGE" value="created for_each for variable d3" />
+    <MESSAGE value="created ex3 in roboshop-setup with for_each loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="created ex3 in roboshop-setup with for_each loop" />
   </component>
 </project>
