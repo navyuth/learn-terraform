@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created 05-s3-state and main.tf">
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex1/servers.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex1/servers.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created data in serrvers.tf, new directory ex2 and file main.tf">
+      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677339427971</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created data in serrvers.tf, new directory ex2 and file main.tf">
+      <created>1677341473053</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677341473053</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +186,7 @@
     <MESSAGE value="In ex1 created resource files for DNS records for all server components" />
     <MESSAGE value="public ip address" />
     <MESSAGE value="created 05-s3-state and main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="created 05-s3-state and main.tf" />
+    <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="created data in serrvers.tf, new directory ex2 and file main.tf" />
   </component>
 </project>
