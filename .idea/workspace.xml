@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="changes in main.tf to create instances with names using variable instances">
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex2/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="*.public_ip">
+      <change beforePath="$PROJECT_DIR$/04-var/var.tf" beforeDir="false" afterPath="$PROJECT_DIR$/04-var/var.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677342040398</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="public_ip">
+      <created>1677342254615</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677342254615</updated>
+    </task>
+    <task id="LOCAL-00022" summary="*.public_ip">
+      <created>1677342289134</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677342289134</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +209,8 @@
     <MESSAGE value="created 05-s3-state and main.tf" />
     <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
     <MESSAGE value="changes in main.tf to create instances with names using variable instances" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in main.tf to create instances with names using variable instances" />
+    <MESSAGE value="public_ip" />
+    <MESSAGE value="*.public_ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="*.public_ip" />
   </component>
 </project>
