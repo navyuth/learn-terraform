@@ -28,6 +28,10 @@ variable "instances" {
   }
 }
 
+output "ec2" {
+  value = aws_instance.instances["Catalogue"]["public_ip"]
+}
+
 ## Immature code
 #variable "names" {
 #  default = ["Catalogue", "User"]
