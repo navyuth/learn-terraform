@@ -4,7 +4,7 @@ data "aws_ami" "ami" {
   owners = [973714476881]
 }
 
-resource "aws_instance" "frontend" {
+resource "aws_instance" "instances" {
   for_each = var.instances
   ami = data.aws_ami.ami.image_id
   instance_type = each.value["type"]
