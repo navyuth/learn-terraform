@@ -28,5 +28,5 @@ variable "d3" {
 }
 
 resource "null_resource" "d2" {
-  count = length(var.d3)
+  count = length(var.d2)
 }
