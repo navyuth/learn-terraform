@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="d3 variable">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created for_each for variable d3">
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex3/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-loops/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/06-loops/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +236,42 @@
       <option name="project" value="LOCAL" />
       <updated>1677344268943</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="d3 variable">
+      <created>1677344345878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344345878</updated>
+    </task>
+    <task id="LOCAL-00030" summary="d3 variable">
+      <created>1677344418350</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344418350</updated>
+    </task>
+    <task id="LOCAL-00031" summary="d2 variable">
+      <created>1677344460242</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344460242</updated>
+    </task>
+    <task id="LOCAL-00032" summary="d2 variable">
+      <created>1677344501156</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344501156</updated>
+    </task>
+    <task id="LOCAL-00033" summary="created for_each for variable d3">
+      <created>1677344741512</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677344741512</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +296,8 @@
     <MESSAGE value="count=var.d1" />
     <MESSAGE value="variable d2 as null resource and count" />
     <MESSAGE value="d3 variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="d3 variable" />
+    <MESSAGE value="d2 variable" />
+    <MESSAGE value="created for_each for variable d3" />
+    <option name="LAST_COMMIT_MESSAGE" value="created for_each for variable d3" />
   </component>
 </project>
