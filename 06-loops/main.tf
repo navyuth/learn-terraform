@@ -27,6 +27,6 @@ variable "d3" {
   }
 }
 
-resource "null_resource" "d3" {
+resource "null_resource" "d2" {
   count = length(var.d3)
 }
