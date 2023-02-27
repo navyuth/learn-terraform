@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created condition to create instance_type">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="added tobool instead of True">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-conditions/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/07-conditions/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,12 +353,31 @@
       <option name="project" value="LOCAL" />
       <updated>1677481918365</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="created demo resource to check the condition for boolean values">
+      <created>1677482335476</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677482335476</updated>
+    </task>
+    <task id="LOCAL-00047" summary="created demo resource to check the condition for boolean values">
+      <created>1677482468631</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677482468631</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added tobool instead of True">
+      <created>1677482588121</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677482588121</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created roboshop-setup directory and ex1 file" />
-    <MESSAGE value="In ex1 created resource files for DNS records for all server components" />
     <MESSAGE value="public ip address" />
     <MESSAGE value="created 05-s3-state and main.tf" />
     <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
@@ -383,6 +401,8 @@
     <MESSAGE value="upper(s) in main.tf inside 06-loops" />
     <MESSAGE value="created 07-conditions with main.tf" />
     <MESSAGE value="created condition to create instance_type" />
-    <option name="LAST_COMMIT_MESSAGE" value="created condition to create instance_type" />
+    <MESSAGE value="created demo resource to check the condition for boolean values" />
+    <MESSAGE value="added tobool instead of True" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tobool instead of True" />
   </component>
 </project>
