@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="added tobool instead of True">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created 08-modules directory and created test sub directory and created module test inside main.tf">
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/ec2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/main.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,11 +376,17 @@
       <option name="project" value="LOCAL" />
       <updated>1677482588121</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="created 08-modules directory and created test sub directory and created module test inside main.tf">
+      <created>1677483124153</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483124153</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="public ip address" />
     <MESSAGE value="created 05-s3-state and main.tf" />
     <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
     <MESSAGE value="changes in main.tf to create instances with names using variable instances" />
@@ -403,6 +411,7 @@
     <MESSAGE value="created condition to create instance_type" />
     <MESSAGE value="created demo resource to check the condition for boolean values" />
     <MESSAGE value="added tobool instead of True" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tobool instead of True" />
+    <MESSAGE value="created 08-modules directory and created test sub directory and created module test inside main.tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="created 08-modules directory and created test sub directory and created module test inside main.tf" />
   </component>
 </project>
