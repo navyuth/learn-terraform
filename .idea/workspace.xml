@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="upper(s) in main.tf inside 06-loops">
-      <change afterPath="$PROJECT_DIR$/07-conditions/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created condition to create instance_type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-conditions/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/07-conditions/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,12 +340,24 @@
       <option name="project" value="LOCAL" />
       <updated>1677347364371</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="created 07-conditions with main.tf">
+      <created>1677481692693</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677481692693</updated>
+    </task>
+    <task id="LOCAL-00045" summary="created condition to create instance_type">
+      <created>1677481918365</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677481918365</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created terraform.auto.tfvars" />
-    <MESSAGE value="created sample2 for var.tf" />
     <MESSAGE value="created roboshop-setup directory and ex1 file" />
     <MESSAGE value="In ex1 created resource files for DNS records for all server components" />
     <MESSAGE value="public ip address" />
@@ -369,6 +381,8 @@
     <MESSAGE value="value = [for k, v in aws_instance.instances: v.public_ip ] to print all Ip's" />
     <MESSAGE value="value = [for k, v in aws_instance.instances: &quot;${k} - ${v.public_ip}&quot; ]" />
     <MESSAGE value="upper(s) in main.tf inside 06-loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="upper(s) in main.tf inside 06-loops" />
+    <MESSAGE value="created 07-conditions with main.tf" />
+    <MESSAGE value="created condition to create instance_type" />
+    <option name="LAST_COMMIT_MESSAGE" value="created condition to create instance_type" />
   </component>
 </project>
