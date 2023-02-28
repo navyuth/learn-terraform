@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf">
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/sg/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created security group sg and made changes to have access allow-all" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +35,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00002" summary="created out.tf">
-      <created>1677171555840</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677171555840</updated>
     </task>
     <task id="LOCAL-00003" summary="created data.tf">
       <created>1677172386807</created>
@@ -382,11 +372,17 @@
       <option name="project" value="LOCAL" />
       <updated>1677483959393</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="created security group sg and made changes to have access allow-all">
+      <created>1677566337369</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1677566337371</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
     <MESSAGE value="changes in main.tf to create instances with names using variable instances" />
     <MESSAGE value="public_ip" />
     <MESSAGE value="*.public_ip" />
@@ -411,6 +407,7 @@
     <MESSAGE value="added tobool instead of True" />
     <MESSAGE value="created 08-modules directory and created test sub directory and created module test inside main.tf" />
     <MESSAGE value="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf" />
+    <MESSAGE value="created security group sg and made changes to have access allow-all" />
+    <option name="LAST_COMMIT_MESSAGE" value="created security group sg and made changes to have access allow-all" />
   </component>
 </project>
