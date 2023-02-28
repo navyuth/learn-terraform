@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created module sg">
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created variable sg and given the output to get the sg_id from main.tf">
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex5/ec2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex5/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex5/sg/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex5/vars.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex4/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex4/ec2/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex4/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex4/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex4/sg/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex4/sg/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00005" summary="created terraform.tfvars">
-      <created>1677173438108</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1677173438108</updated>
-    </task>
-    <task id="LOCAL-00006" summary="created terraform.auto.tfvars">
-      <created>1677173829341</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1677173829341</updated>
     </task>
     <task id="LOCAL-00007" summary="created terraform.auto.tfvars">
       <created>1677174002804</created>
@@ -384,11 +371,24 @@
       <option name="project" value="LOCAL" />
       <updated>1677566656610</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="created variable sg and given the output to get the sg_id from main.tf">
+      <created>1677567860946</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1677567860946</updated>
+    </task>
+    <task id="LOCAL-00055" summary="created variable sg and given the output to get the sg_id from main.tf">
+      <created>1677568092407</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1677568092407</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="public_ip" />
     <MESSAGE value="*.public_ip" />
     <MESSAGE value="d1 variable in var.tf" />
     <MESSAGE value="tags Names is created in main.tf to generate names for each instance" />
@@ -413,6 +413,7 @@
     <MESSAGE value="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf" />
     <MESSAGE value="created security group sg and made changes to have access allow-all" />
     <MESSAGE value="created module sg" />
-    <option name="LAST_COMMIT_MESSAGE" value="created module sg" />
+    <MESSAGE value="created variable sg and given the output to get the sg_id from main.tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="created variable sg and given the output to get the sg_id from main.tf" />
   </component>
 </project>
