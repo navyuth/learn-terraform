@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created 08-modules directory and created test sub directory and created module test inside main.tf">
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/ec2/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf">
+      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex4/sg/main.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +38,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00001" summary="created test.tf">
-      <created>1677170469355</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677170469355</updated>
     </task>
     <task id="LOCAL-00002" summary="created out.tf">
       <created>1677171555840</created>
@@ -383,11 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1677483124153</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf">
+      <created>1677483959393</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483959393</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created 05-s3-state and main.tf" />
     <MESSAGE value="created data in serrvers.tf, new directory ex2 and file main.tf" />
     <MESSAGE value="changes in main.tf to create instances with names using variable instances" />
     <MESSAGE value="public_ip" />
@@ -412,6 +410,7 @@
     <MESSAGE value="created demo resource to check the condition for boolean values" />
     <MESSAGE value="added tobool instead of True" />
     <MESSAGE value="created 08-modules directory and created test sub directory and created module test inside main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="created 08-modules directory and created test sub directory and created module test inside main.tf" />
+    <MESSAGE value="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterating the module in main.tf, created variables for component and instance_type inside ec2/main.tf" />
   </component>
 </project>
