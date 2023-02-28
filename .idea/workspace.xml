@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created directory ex5 and imported sg and ec2 files and declared variables separately in vars.tf file">
-      <change afterPath="$PROJECT_DIR$/roboshop-setup/ex5/route53/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex5/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex5/ec2/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created route53 directory under ex5">
       <change beforePath="$PROJECT_DIR$/roboshop-setup/ex5/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex5/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex5/route53/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex5/route53/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +38,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00009" summary="created sample2 for var.tf">
-      <created>1677227084761</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1677227084761</updated>
     </task>
     <task id="LOCAL-00010" summary="created sample2 for var.tf">
       <created>1677227310083</created>
@@ -384,11 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1677569313792</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="created route53 directory under ex5">
+      <created>1677569846238</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1677569846239</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="d1 variable in var.tf" />
     <MESSAGE value="tags Names is created in main.tf to generate names for each instance" />
     <MESSAGE value="created 06-loops directory and created null_resource in main.tf" />
     <MESSAGE value="count=var.d1" />
@@ -413,6 +410,7 @@
     <MESSAGE value="created module sg" />
     <MESSAGE value="created variable sg and given the output to get the sg_id from main.tf" />
     <MESSAGE value="created directory ex5 and imported sg and ec2 files and declared variables separately in vars.tf file" />
-    <option name="LAST_COMMIT_MESSAGE" value="created directory ex5 and imported sg and ec2 files and declared variables separately in vars.tf file" />
+    <MESSAGE value="created route53 directory under ex5" />
+    <option name="LAST_COMMIT_MESSAGE" value="created route53 directory under ex5" />
   </component>
 </project>
