@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="changes in ex5\main.tf">
-      <change beforePath="$PROJECT_DIR$/roboshop-setup/ex5/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop-setup/ex5/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created variable component in route53 and records = [var.private_ip]">
+      <change afterPath="$PROJECT_DIR$/10-provisioners/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +38,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00018" summary="created 05-s3-state and main.tf">
-      <created>1677339427971</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1677339427971</updated>
-    </task>
-    <task id="LOCAL-00019" summary="created data in serrvers.tf, new directory ex2 and file main.tf">
-      <created>1677341473053</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1677341473053</updated>
     </task>
     <task id="LOCAL-00020" summary="changes in main.tf to create instances with names using variable instances">
       <created>1677342040398</created>
@@ -381,11 +368,24 @@
       <option name="project" value="LOCAL" />
       <updated>1677571116221</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="changes in ex5\main.tf">
+      <created>1677571175621</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1677571175621</updated>
+    </task>
+    <task id="LOCAL-00068" summary="created variable component in route53 and records = [var.private_ip]">
+      <created>1677571304612</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1677571304612</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="d2 variable" />
     <MESSAGE value="created for_each for variable d3" />
     <MESSAGE value="created ex3 in roboshop-setup with for_each loop" />
     <MESSAGE value="use count.index in creating Catalogue and User" />
@@ -410,6 +410,7 @@
     <MESSAGE value="09-functions" />
     <MESSAGE value="changes in -09-functions" />
     <MESSAGE value="changes in ex5\main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in ex5\main.tf" />
+    <MESSAGE value="created variable component in route53 and records = [var.private_ip]" />
+    <option name="LAST_COMMIT_MESSAGE" value="created variable component in route53 and records = [var.private_ip]" />
   </component>
 </project>
