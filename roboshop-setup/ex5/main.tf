@@ -14,7 +14,7 @@ module "route53" {
   for_each = var.instances
   component= each.value["name"]
   source = "./route53"
-  private_ip = module.ec2.private_ip
+  private_ip = module.ec2.private_ip["catalogue"]
 }
 
 output "ec2" {
