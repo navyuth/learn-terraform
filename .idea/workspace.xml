@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created variable component in route53 and records = [var.private_ip]">
-      <change afterPath="$PROJECT_DIR$/10-provisioners/main.tf" afterDir="false" />
+    <list default="true" id="89c51074-2de7-475f-907f-71166f1861e9" name="Changes" comment="created 10-provisioners">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +23,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ReNa/Desktop/github-repos"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,13 +38,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677140733942</updated>
-    </task>
-    <task id="LOCAL-00020" summary="changes in main.tf to create instances with names using variable instances">
-      <created>1677342040398</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1677342040398</updated>
     </task>
     <task id="LOCAL-00021" summary="public_ip">
       <created>1677342254615</created>
@@ -382,11 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1677571304612</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="created 10-provisioners">
+      <created>1677572195908</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1677572195908</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created for_each for variable d3" />
     <MESSAGE value="created ex3 in roboshop-setup with for_each loop" />
     <MESSAGE value="use count.index in creating Catalogue and User" />
     <MESSAGE value="using for_each creating Catalogue and User" />
@@ -411,6 +410,7 @@
     <MESSAGE value="changes in -09-functions" />
     <MESSAGE value="changes in ex5\main.tf" />
     <MESSAGE value="created variable component in route53 and records = [var.private_ip]" />
-    <option name="LAST_COMMIT_MESSAGE" value="created variable component in route53 and records = [var.private_ip]" />
+    <MESSAGE value="created 10-provisioners" />
+    <option name="LAST_COMMIT_MESSAGE" value="created 10-provisioners" />
   </component>
 </project>
