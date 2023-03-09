@@ -28,5 +28,5 @@ resource "aws_spot_instance_request" "node2" {
 resource "aws_ec2_tag" "node2" {
   key         = "Name"
   resource_id = aws_spot_instance_request.node2.spot_instance_id
-  value       = "prom-test-server"
+  value       = "prom-test-node"
 }
